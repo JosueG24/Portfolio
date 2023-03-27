@@ -45,4 +45,12 @@
         @apply bg-cover bg-center;
         background-image: url(/public/backgrounds/DrawBoc+fondo.png);
     }
+    .bg_Moon{
+        @apply bg-cover bg-center;
+        background-image: url(/public/backgrounds/bgMoon.png);
+    }
+    /* Other */
+    .App{
+        overflow-x: hidden;
+    }
 }
