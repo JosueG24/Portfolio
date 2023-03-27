@@ -3,9 +3,12 @@ import React from 'react'
 export default function Part1() {
   return (
     <div>
-        <h1 className="text-3xl font-bold underline">
-        Hello world!
-        </h1>
+      <header className='fixed bg-c_Black w-full h-1/10'>
+        
+      </header>
+      <section className=''>
+
+      </section>
     </div>
   )
 }
