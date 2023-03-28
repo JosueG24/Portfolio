@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Part2() {
+export default function About() {
   return (
-    <section className='bg_Moon w-screen p-5'>
+    <section className='scrollEfect bg_Moon w-screen h-[calc(90vh)] p-5'>
       <div className='w-full h-56 flex'>
         <div className='w-1/2'>
           <p className='txtLg'>Sobre mi</p>

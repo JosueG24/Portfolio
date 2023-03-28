@@ -43,14 +43,31 @@
     /* Backgrouns */
     .bg_Portada{
         @apply bg-cover bg-center;
-        background-image: url(/public/backgrounds/DrawBoc+fondo.png);
+        background-image: url(/public/backgrounds/elementsV3-600-1300.png);
     }
     .bg_Moon{
         @apply bg-cover bg-center;
-        background-image: url(/public/backgrounds/bgMoon.png);
+        background-image: url(/public/backgrounds/bgMoonV1.png);
     }
     /* Other */
     .App{
         overflow-x: hidden;
+        background-image: url(/public/backgrounds/fondoV1.jpg);
+        @apply w-screen h-screen;
+        scroll-snap-type: y mandatory;
+        scroll-behavior: auto;
+
+    }
+    .scrollEfect{
+        scroll-snap-align: end;
+        scroll-snap-stop: always;
+        scroll-padding: 0 50vh;
+    }
+    .scrollEfectII{
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
+    }
+    .mt_screen{
+        margin-top: 90vh;
     }
 }
