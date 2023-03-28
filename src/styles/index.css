@@ -14,10 +14,10 @@
     }
     /* Estilo de fuente */
     .txtPrincipal{
-        font-family: 'Averia Libre', Helvetica, Arial, sans-serif;    
+        font-family: "Hind Madurai", Helvetica, Arial, sans-serif; 
     }
     .txtSecondary{
-        font-family: 'Bungee', cursive;
+        font-family: 'Ubuntu', cursive, sans-serif; 
     }
     /* Tamaños de fuente */
     .txtSm{
@@ -51,6 +51,7 @@
     }
     /* Other */
     .App{
+        font-family: "Hind Madurai", Helvetica, Arial, sans-serif; 
         overflow-x: hidden;
         background-image: url(/public/backgrounds/fondoV1.jpg);
         @apply w-screen h-screen;
