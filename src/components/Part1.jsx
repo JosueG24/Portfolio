@@ -3,7 +3,7 @@ import React from 'react'
 export default function Part1() {
   return (
     <div className='scrollEfect w-screen h-screen txtSm'>
-      <header className='fixed top-0 bg-c_Black w-[calc(100%-1.3vw)] h-1/10 flexAllCenter justify-around'>
+      <header className='fixed z-20 top-0 left-0 bg-c_Black w-[calc(100%-1.3vw)] h-1/10 flexAllCenter justify-around'>
         <div className='text-white'>
             <p>Logo</p>
         </div>

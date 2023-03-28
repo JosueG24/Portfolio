@@ -8,7 +8,11 @@ import Contacto from "./components/Contacto";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex">
+      <div className="w-[calc(3vw)] h-screen bg-c_Orange fixed">
+      </div>
+      <div className="w-[calc(3vw)] h-screen"></div>
+      <div className="spContainer">
         <Part1/>
         <About/>
         <Tecnos/>
@@ -16,6 +20,7 @@ function App() {
         <Services/>
         <Portfolio/>
         <Contacto/>
+      </div>
     </div>
   );
 }

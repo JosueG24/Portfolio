@@ -51,13 +51,15 @@
     }
     /* Other */
     .App{
+
+    }
+    .spContainer{
         font-family: "Hind Madurai", Helvetica, Arial, sans-serif; 
         overflow-x: hidden;
         background-image: url(/public/backgrounds/fondoV1.jpg);
-        @apply w-screen h-screen;
+        @apply w-[calc(97vw)] h-screen;
         scroll-snap-type: y mandatory;
         scroll-behavior: auto;
-
     }
     .scrollEfect{
         scroll-snap-align: end;
