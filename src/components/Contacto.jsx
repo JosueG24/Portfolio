@@ -2,7 +2,7 @@ import Footer from "./Footer"
 
 export default function Contacto() {
   return (
-    <section className=' txtMd p-5 bg-c_Dark text-white w-full h-auto'>
+    <section id="Contacto" className=' txtMd p-5 bg-c_Dark text-white w-full h-auto'>
     <p className='w-full h-h-[calc(7vh)] flexAllCenter'>Contacto</p>
     <div className="w-full scrollEfect">
         <div className='flexAllCenter flex-wrap w-full h-[calc(72vh)] flex-col border-b-2 border-c_Light'>

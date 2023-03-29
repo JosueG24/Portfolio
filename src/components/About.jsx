@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <section className='text-c_Dark scrollEfect bg_Moon w-screen h-[calc(90vh)] p-5'>
+    <section id='About' className='text-c_Dark scrollEfect bg_Moon w-screen h-[calc(90vh)] p-5'>
       <div className='w-full h-56 flex'>
         <div className='w-1/2'>
           <p className='txtLg'>Sobre mi</p>

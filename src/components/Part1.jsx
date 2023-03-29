@@ -1,4 +1,3 @@
-import React from 'react'
 
 export default function Part1() {
   return (
@@ -6,13 +5,13 @@ export default function Part1() {
       {/* Header */}
       <header className='txtSecondary fixed z-20 top-0 left-0 bg-c_Dark w-[calc(100%-1.3vw)] h-1/10 flexAllCenter justify-around border-b-2 border-c_Light'>
         <div className='w-1/10 h-full p-3'>
-            <img className='w-6/10 h-full' src='/Logo.png'/>
+            <img alt="Logo" className='w-6/10 h-full' src='/Logo.png'/>
         </div>
         <div className='flexAllCenter justify-around w-5/10'>
-          <p>Sobre mi</p>
-          <p>Conocimientos</p>
-          <p>Portafolio</p>
-          <p>Contacto</p>
+          <a className="" href="#About">Sobre mi</a>
+          <a className="" href="#Conocimientos">Conocimientos</a>
+          <a className="" href="#Portafolio">Portafolio</a>
+          <a className="" href="#Contacto">Contacto</a>
         </div>
       </header>
       <div className="w-full h-1/10"></div>
