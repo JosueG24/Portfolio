@@ -28,10 +28,10 @@ module.exports = {
         "9/10":"90%",
       },
       colors:{
-        c_Blue :  "#111F4D",
-        c_White : "#F2F4F7",
-        c_Orange :"#E43419",
-        c_Black : "#020205",
+        c_Complement :  "#B584FF",
+        c_Light : "#E5E1FA",
+        c_Fluorecent :"#E868D0",
+        c_Dark : "#020210",
       }
     },
   },

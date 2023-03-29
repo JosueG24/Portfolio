@@ -43,17 +43,18 @@
     /* Backgrouns */
     .bg_Portada{
         @apply bg-cover bg-center;
-        background-image: url(/public/backgrounds/elementsV3-600-1300.png);
+        background-image: url(/public/backgrounds/elementsV4Colors-600-1300.png);
     }
     .bg_Moon{
         @apply bg-cover bg-center;
-        background-image: url(/public/backgrounds/bgMoonV1.png);
+        background-image: url(/public/backgrounds/bgMoonV3Colors-600-1300.png);
     }
     /* Other */
     .App{
 
     }
     .spContainer{
+        color: #E5E1FA;
         font-family: "Hind Madurai", Helvetica, Arial, sans-serif; 
         overflow-x: hidden;
         background-image: url(/public/backgrounds/fondoV1.jpg);
@@ -72,5 +73,8 @@
     }
     .mt_screen{
         margin-top: 90vh;
+    }
+    .leftBarr{
+        border-right: 1px solid #B584FF;
     }
 }

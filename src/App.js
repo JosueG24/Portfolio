@@ -9,9 +9,12 @@ import Contacto from "./components/Contacto";
 function App() {
   return (
     <div className="App flex">
-      <div className="w-[calc(3vw)] h-screen bg-c_Orange fixed">
+      {/* Barra lateral */}
+      <div className="w-[calc(3vw)] h-screen pt-[calc(15vh)] pb-[calc(5vh)] px-0 fixed bg-c_Dark">
+        <div className="w-full h-full leftBarr"></div>
       </div>
-      <div className="w-[calc(3vw)] h-screen"></div>
+      <div className="w-[calc(3vw)] h-screen bg-c_Dark"></div>
+      {/* Cuerpo */}
       <div className="spContainer">
         <Part1/>
         <About/>

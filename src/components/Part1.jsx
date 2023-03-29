@@ -3,11 +3,12 @@ import React from 'react'
 export default function Part1() {
   return (
     <div className='scrollEfect w-screen h-screen txtSm'>
-      <header className='fixed z-20 top-0 left-0 bg-c_Black w-[calc(100%-1.3vw)] h-1/10 flexAllCenter justify-around'>
-        <div className='text-white'>
-            <p>Logo</p>
+      {/* Header */}
+      <header className='txtSecondary fixed z-20 top-0 left-0 bg-c_Dark w-[calc(100%-1.3vw)] h-1/10 flexAllCenter justify-around border-b-2 border-c_Light'>
+        <div className='w-1/10 h-full p-3'>
+            <img className='w-6/10 h-full' src='/Logo.png'/>
         </div>
-        <div className='text-white flexAllCenter justify-around w-5/10'>
+        <div className='flexAllCenter justify-around w-5/10'>
           <p>Sobre mi</p>
           <p>Conocimientos</p>
           <p>Portafolio</p>
@@ -15,8 +16,9 @@ export default function Part1() {
         </div>
       </header>
       <div className="w-full h-1/10"></div>
+      {/* Portada */}
       <section className="bg_Portada w-full h-9/10">
-        <div className='relative top-1/2 left-20 text-white txtXl'>
+        <div className='relative top-1/2 left-20 txtXl'>
           <p className='txtSecondary txtXl'>Soy Josue Guzman</p>
           <p className=''>Desarrollador Web</p>
           <button className=''>ImAButton</button>

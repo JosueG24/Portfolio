@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <section className='scrollEfect bg_Moon w-screen h-[calc(90vh)] p-5'>
+    <section className='text-c_Dark scrollEfect bg_Moon w-screen h-[calc(90vh)] p-5'>
       <div className='w-full h-56 flex'>
         <div className='w-1/2'>
           <p className='txtLg'>Sobre mi</p>
@@ -19,10 +19,10 @@ export default function About() {
       </div>
       <div className='w-full h-56 flex '>
         <div className='flexAllCenter w-1/2 justify-around'>
-          <button className='bg-c_Orange'>option</button>
+          <button className='bg-c_Fluorecent'>option</button>
           <div className=''>
-            <button className='bg-c_Orange'>option</button>
-            <button className='bg-c_Orange'>options</button>
+            <button className='bg-c_Fluorecent'>option</button>
+            <button className='bg-c_Fluorecent'>options</button>
           </div>
           <div className='w-1/2'>
             <img className='w-3/6 h-full' src='/myPhoto.jpeg'/>
