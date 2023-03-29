@@ -60,16 +60,13 @@
         background-image: url(/public/backgrounds/fondoV1.jpg);
         @apply w-[calc(97vw)] h-screen;
         scroll-snap-type: y mandatory;
-        scroll-behavior: auto;
+        scroll-behavior: smooth;
     }
     .scrollEfect{
         scroll-snap-align: end;
-        scroll-snap-stop: always;
-        scroll-padding: 0 50vh;
     }
     .scrollEfectII{
         scroll-snap-align: start;
-        scroll-snap-stop: always;
     }
     .mt_screen{
         margin-top: 90vh;
