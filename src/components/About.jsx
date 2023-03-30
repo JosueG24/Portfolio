@@ -19,8 +19,8 @@ export default function About() {
       <div className='w-full h-1/2  flex'>
         <div className=' flexAllCenter w-3/10 justify-start flex-col'>
           <div className='flexAllCenter'>
-            <button className='bg-c_Fluorecent rounded-lg p-2 mx-1 my-5'>Descarga Cv</button>
-            <button className='bg-c_Fluorecent rounded-lg p-2 mx-1 my-5'>Ver proyectos</button>
+            <button className='bg-c_Mischka rounded-lg p-2 mx-1 my-5'>Descarga Cv</button>
+            <button className='bg-c_Mischka rounded-lg p-2 mx-1 my-5'>Ver proyectos</button>
           </div>
           <div className='w-1/2 flexAllCenter'>
             <img alt='Panda' className='max-w-full max-h-full py-2 mx-auto rounded-2xl' src='/PelucheV1.png'/>

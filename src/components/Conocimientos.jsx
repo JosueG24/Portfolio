@@ -3,7 +3,7 @@ import React from 'react'
 export default function Conocimientos() {
   return (
     <>
-    <section id='Conocimientos' className='scrollEfect txtMd p-5 bg-c_Dark text-c_Light w-full h-[calc(90vh)]'>
+    <section id='Conocimientos' className='scrollEfect txtMd p-5 bg-c_Ebony text-c_Mischka w-full h-[calc(90vh)]'>
       <p className='w-full h-1/10 flexAllCenter txtXl txtSecondary'>Conocimientos</p>
       <div className='flexAllCenter flex-wrap w-full h-9/10'>
 
@@ -33,7 +33,7 @@ export default function Conocimientos() {
       </div>
   </section>
 
-  <section id='Conocimientos' className='scrollEfect txtMd p-5 bg-c_Dark text-c_Light w-full h-[calc(90vh)] border-b-2 border-c_Light'>
+  <section id='Conocimientos' className='scrollEfect txtMd p-5 bg-c_Ebony text-c_Mischka w-full h-[calc(90vh)] border-b-2 border-c_Mischka'>
     <div className='flexAllCenter flex-wrap w-full h-full'>
 
       <div className='margins w-4/10 h-4/10 max-w-[calc(400px)] mx-[calc(3%)] my-[calc(2%)] rounded-xl overflow-hidden'>

@@ -3,7 +3,7 @@ export default function Part1() {
   return (
     <div className='scrollEfect w-screen h-screen txtSm'>
       {/* Header */}
-      <header className='txtSecondary fixed z-20 top-0 left-0 bg-c_Dark w-[calc(100%-1.3vw)] h-1/10 flexAllCenter justify-around border-b-2 border-c_Light'>
+      <header className='txtSecondary fixed z-20 top-0 left-0 bg-c_Ebony w-[calc(100%-1.3vw)] h-1/10 flexAllCenter justify-around border-b-2 border-c_Mischka'>
         <div className='w-1/10 h-full p-3'>
             <img alt="Logo" className='w-6/10 h-full' src='/Logo.png'/>
         </div>

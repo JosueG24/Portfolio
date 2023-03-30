@@ -7,7 +7,7 @@
         background-color: rgba(0, 0, 0, 0.5);
     }
     .margins{
-        @apply outline outline-white outline-1 rounded-md
+        @apply outline outline-c_Mischka outline-1 rounded-md
     }
     .flexAllCenter{
         @apply flex justify-center items-center;
@@ -70,7 +70,7 @@
 
     }
     .spContainer{
-        color: #E5E1FA;
+        color: #DFDDE6;
         font-family: "Hind Madurai", Helvetica, Arial, sans-serif; 
         overflow-x: hidden;
         background-image: url(/public/backgrounds/fondoV1.jpg);
@@ -88,6 +88,6 @@
         margin-top: 90vh;
     }
     .leftBarr{
-        border-right: 1px solid #B584FF;
+        border-right: 1px solid #DFDDE6;
     }
 }
