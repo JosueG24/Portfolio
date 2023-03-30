@@ -49,6 +49,22 @@
         @apply bg-cover bg-center;
         background-image: url(/public/backgrounds/bgMoonV3Colors-600-1300.png);
     }
+    .bgConoc1{
+        @apply bg-cover bg-center;
+        background-image: url(/public/Others/tailwind-nextjs.png);
+    }
+    .bgConoc2{
+        @apply bg-cover bg-center;
+        background-image: url(/public/Others/stcakMern.jpg);
+    }
+    .bgConoc3{
+        @apply bg-cover bg-center;
+        background-image: url(/public/Others/mvcCore.jpg);
+    }
+    .bgConoc4{
+        @apply bg-cover bg-center;
+        background-image: url(/public/Others/backend.png);
+    }
     /* Other */
     .App{
 

@@ -32,6 +32,7 @@ module.exports = {
         c_Light : "#E5E1FA",
         c_Fluorecent :"#E868D0",
         c_Dark : "#020210",
+        c_Opaque: "rgba(0, 0, 0, 0.3)"
       }
     },
   },

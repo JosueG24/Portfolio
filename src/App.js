@@ -18,7 +18,7 @@ function App() {
       <div className="spContainer">
         <Part1/>
         <About/>
-        <Tecnos/>
+        {/* <Tecnos/> */}
         <Conocimientos/>
         <Services/>
         <Portfolio/>
