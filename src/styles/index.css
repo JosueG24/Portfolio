@@ -43,11 +43,11 @@
     /* Backgrouns */
     .bg_Portada{
         @apply bg-cover bg-center;
-        background-image: url(/public/backgrounds/elementsV4Colors-600-1300.png);
+        background-image: url(/public/backgrounds/elementsV5Colors-600-1300.png);
     }
     .bg_Moon{
         @apply bg-cover bg-center;
-        background-image: url(/public/backgrounds/bgMoonV3Colors-600-1300.png);
+        background-image: url(/public/backgrounds/bgMoonV4Colors-600-1300.png);
     }
     .bgConoc1{
         @apply bg-cover bg-center;
@@ -73,7 +73,7 @@
         color: #DFDDE6;
         font-family: "Hind Madurai", Helvetica, Arial, sans-serif; 
         overflow-x: hidden;
-        background-image: url(/public/backgrounds/fondoV1.jpg);
+        background-image: url(/public/backgrounds/fondoV2Colors-750-1300.png);
         @apply w-[calc(97vw)] h-screen;
         scroll-snap-type: y mandatory;
         scroll-behavior: smooth;
@@ -89,5 +89,12 @@
     }
     .leftBarr{
         border-right: 1px solid #DFDDE6;
+    }
+    /* Clases de los links del navbar */
+    .inactiveA{
+        @apply p-2 rounded-lg transition-all hover:bg-c_Mischka hover:text-c_Ebony hover:border-c_Ebony;
+    }
+    .activeA{
+        @apply border-y-2 border-c_Mischka p-2 rounded-lg transition-all hover:bg-c_Mischka hover:text-c_Ebony hover:border-c_Ebony;
     }
 }

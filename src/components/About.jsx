@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <section id='About' className='text-c_Dark scrollEfect bg_Moon w-screen h-[calc(90vh)] p-5'>
+    <section id='About' className='text-c_Ebony scrollEfect bg_Moon w-screen h-[calc(90vh)] p-5'>
       <div className='w-full h-1/2  flex'>
         <div className='w-2/3 p-3'>
           <p className='txtLg txtSecondary font-semibold text-center pb-3'>Sobre mi</p>
@@ -17,15 +17,17 @@ export default function About() {
         </div>
       </div>
       <div className='w-full h-1/2  flex'>
-        <div className=' flexAllCenter w-3/10 justify-start flex-col'>
-          <div className='flexAllCenter'>
-            <button className='bg-c_Mischka rounded-lg p-2 mx-1 my-5'>Descarga Cv</button>
-            <button className='bg-c_Mischka rounded-lg p-2 mx-1 my-5'>Ver proyectos</button>
+
+        <div className='relative flexAllCenter w-3/10 h-full justify-start flex-col'>
+          <div className='absolute top-[calc(20%)] flexAllCenter w-full h-full z-10'>
+            <button className='bg-c_Purple border-y-2 border-c_Ebony rounded-lg p-2 mx-1 my-5 hover:text-c_Mischka hover:border-c_Mischka transition-colors shadow-lg shadow-c_Ebony'>Descarga Cv</button>
+            <button className='bg-c_Purple border-y-2 border-c_Ebony rounded-lg p-2 mx-1 my-5 hover:text-c_Mischka hover:border-c_Mischka transition-colors shadow-lg shadow-c_Ebony'>Ver proyectos</button>
           </div>
-          <div className='w-1/2 flexAllCenter'>
+          <div className='absolute top-0 w-1/2 h-full flexAllCenter'>
             <img alt='Panda' className='max-w-full max-h-full py-2 mx-auto rounded-2xl' src='/PelucheV1.png'/>
           </div>
         </div>
+
         <div className=' w-7/10'>
         <p className='txtLg txtSecondary font-semibold text-center pb-3'>Sobre mi</p>
           <p className='p-3 p-t0 txtMd'>
