@@ -6,7 +6,7 @@ export default function About() {
       <div className='w-full h-1/2  flex'>
         <div className='w-2/3 p-3'>
           <p className='txtLg txtSecondary font-semibold text-center pb-3'>Sobre mi</p>
-          <p className='p-3 p-t0 txtMd'>
+          <p className='p-3 p-t0 txtMd glassBox shadow-md shadow-c_Ebony'>
             Hola, me llamo Josué y es un gusto saludarte. Soy un joven autodidacta, programador especializado en el area de desarrollo web.
             Tengo 19 años, me gradué como bachiller hace 2 años, y hasta ahora todo lo que se sobre programación lo he aprendido por cuenta propia.
             Mi experiencia es la que se ve reflejada en los proyectos que puedes encontrar en las próximas secciones.

@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{ --swiper-theme-color : #DFDDE6 !important}
+
 @layer components{
     .bgOpaque{
         background-color: rgba(0, 0, 0, 0.5);
@@ -65,6 +67,10 @@
         @apply bg-cover bg-center;
         background-image: url(/public/Others/backend.png);
     }
+    .bgPort1{
+        @apply bg-cover bg-center;
+        background-image: url(/public/projectImages/Portfolio.jpeg);
+    }
     /* Other */
     .App{
 
@@ -84,6 +90,9 @@
     .scrollEfectII{
         scroll-snap-align: start;
     }
+    .scrollEfectIII{
+        scroll-snap-align: center;
+    }
     .mt_screen{
         margin-top: 90vh;
     }
@@ -96,5 +105,9 @@
     }
     .activeA{
         @apply border-y-2 border-c_Mischka p-2 rounded-lg transition-all hover:bg-c_Mischka hover:text-c_Ebony hover:border-c_Ebony;
+    }
+    /* Clases para cajas con glassmorfismo */
+    .glassBox{
+        @apply  bg-c_Mischka bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-lg p-6;
     }
 }
