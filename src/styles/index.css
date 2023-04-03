@@ -45,11 +45,11 @@
     /* Backgrouns */
     .bg_Portada{
         @apply bg-cover bg-center;
-        background-image: url(/public/backgrounds/elementsV5Colors-600-1300.png);
+        background-image: url(/public/backgrounds/elementsV7-redy-600-1300.png);
     }
     .bg_Moon{
         @apply bg-cover bg-center;
-        background-image: url(/public/backgrounds/bgMoonV4Colors-600-1300.png);
+        background-image: url(/public/backgrounds/bgMoonV5-redy-600-1300.png);
     }
     .bgConoc1{
         @apply bg-cover bg-center;
@@ -79,7 +79,7 @@
         color: #DFDDE6;
         font-family: "Hind Madurai", Helvetica, Arial, sans-serif; 
         overflow-x: hidden;
-        background-image: url(/public/backgrounds/fondoV2Colors-750-1300.png);
+        background-image: url(/public/backgrounds/fondoV4-redy750-1300.png);
         @apply w-[calc(97vw)] h-screen;
         scroll-snap-type: y mandatory;
         scroll-behavior: smooth;
@@ -108,6 +108,7 @@
     }
     /* Clases para cajas con glassmorfismo */
     .glassBox{
-        @apply  bg-c_Mischka bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-lg p-6;
+        /* @apply rounded-lg p-6; */
+        @apply bg-opacity-40 bg-c_Purple backdrop-filter backdrop-blur-lg border border-c_Purple border-opacity-50 rounded-lg shadow-lg shadow-c_Ebony
     }
 }

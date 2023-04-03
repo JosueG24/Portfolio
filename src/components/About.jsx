@@ -1,43 +1,43 @@
 import React from 'react'
 
 export default function About() {
-  return (
-    <section id='About' className='text-c_Ebony scrollEfect bg_Moon w-screen h-[calc(90vh)] p-5'>
-      <div className='w-full h-1/2  flex'>
-        <div className='w-2/3 p-3'>
-          <p className='txtLg txtSecondary font-semibold text-center pb-3'>Sobre mi</p>
-          <p className='p-3 p-t0 txtMd glassBox shadow-md shadow-c_Ebony'>
-            Hola, me llamo Josué y es un gusto saludarte. Soy un joven autodidacta, programador especializado en el area de desarrollo web.
-            Tengo 19 años, me gradué como bachiller hace 2 años, y hasta ahora todo lo que se sobre programación lo he aprendido por cuenta propia.
-            Mi experiencia es la que se ve reflejada en los proyectos que puedes encontrar en las próximas secciones.
-            Échate una visita por todo este sitio. Y si por cualquier cosa deseas contactarme, yo estaré feliz de recibir tu mensaje.¿</p>
-        </div>
-        <div className='w-1/3'>
-          <img alt='myPhoto' className='max-w-full max-h-full py-2 mx-auto rounded-2xl' src='/myPhoto.jpeg'/>
+  return(
+    <section id='About' className='text-c_Ebony scrollEfect bg_Moon w-screen h-[calc(90vh)] flex'>
+    <div className='w-2/10 h-full'>
+      <div className='w-full h-1/2 p-3'>
+        <div className='w-full h-full glassBox p-3'>
+          <p></p>
         </div>
       </div>
-      <div className='w-full h-1/2  flex'>
-
-        <div className='relative flexAllCenter w-3/10 h-full justify-start flex-col'>
+      <div className='w-full h-1/2 relative flexAllCenter justify-start flex-col'>
           <div className='absolute top-[calc(20%)] flexAllCenter w-full h-full z-10'>
             <button className='bg-c_Purple border-y-2 border-c_Ebony rounded-lg p-2 mx-1 my-5 hover:text-c_Mischka hover:border-c_Mischka transition-colors shadow-lg shadow-c_Ebony'>Descarga Cv</button>
             <button className='bg-c_Purple border-y-2 border-c_Ebony rounded-lg p-2 mx-1 my-5 hover:text-c_Mischka hover:border-c_Mischka transition-colors shadow-lg shadow-c_Ebony'>Ver proyectos</button>
           </div>
-          <div className='absolute top-0 w-1/2 h-full flexAllCenter'>
-            <img alt='Panda' className='max-w-full max-h-full py-2 mx-auto rounded-2xl' src='/PelucheV1.png'/>
+          <div className='absolute top-0 w-full h-full p-5 flexAllCenter'>
+            <img alt='Panda' className='max-h-[calc(100%)] w-auto rounded-2xl' src='/PelucheV1.png'/>
           </div>
-        </div>
-
-        <div className=' w-7/10'>
-        <p className='txtLg txtSecondary font-semibold text-center pb-3'>Sobre mi</p>
-          <p className='p-3 p-t0 txtMd'>
-            Hola, me llamo Josué y es un gusto saludarte. Soy un joven autodidacta, programador especializado en el area de desarrollo web.
-            Tengo 19 años, me gradué como bachiller hace 2 años, y hasta ahora todo lo que se sobre programación lo he aprendido por cuenta propia.
-            Mi experiencia es la que se ve reflejada en los proyectos que puedes encontrar en las próximas secciones.
-            Échate una visita por todo este sitio. Y si por cualquier cosa deseas contactarme, yo estaré feliz de recibir tu mensaje.
-          </p>
+      </div>
+    </div>
+    <div className='w-5/10 h-full flexAllCenter'>
+      <div className='w-full h-auto p-4 mx-3 glassBox txtMd'>
+        <p className='py-2 px-6 txtXl txtSecondary'>Sobre mi :</p>
+        <p className='pb-2 px-6 text-justify'>Saludos, mi nombre es Josué Guzman y soy un desarrollador web aprendiz con experiencia en frontend y backend. Luego de graduarme como bachiller en computación, he estado estudiando y trabajando en proyectos web fullstack durante los últimos 18 meses.</p>
+        <p className='pb-2 px-6 text-justify'>Aunque no cuento con experiencia laboral previa, soy un habil aprendiz y me considero una persona creativa, resolutiva y capaz de resolver problemas lógicos de manera eficiente. Además, soy una persona planificadora, ordenada, observadora y que constantemente trata de aprender cosas nuevas.</p>
+        <p className='pb-2 px-6 text-justify'>Este portafolio es una muestra de los proyectos en los que he trabajado y de las habilidades que he adquirido hasta el momento. Estoy buscando una oportunidad para poner en práctica mi conocimiento y seguir creciendo como desarrollador web.</p>
+        <p className='pb-2 px-6 text-justify'>Si crees que puedo aportar valor a tu empresa o proyecto, estaré encantado de discutir posibles colaboraciones. No dudes en contactarme si tienes alguna pregunta o si deseas saber más sobre mi experiencia y habilidades. ¡Gracias por tu tiempo y consideración!</p>
+      </div>
+    </div>
+    <div className='w-3/10 h-full '>
+      <div className=' w-full h-2/3 p-6'>
+        <img alt='myPhoto' className='max-w-full max-h-full rounded-3xl shadow-md shadow-c_Ebony' src='/myPhoto.jpeg'/>
+      </div>
+      <div className='w-full h-1/3 p-3'>
+        <div className='w-[calc(80.60%)] h-full glassBox p-3'>
+          <p></p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
   )
 }
