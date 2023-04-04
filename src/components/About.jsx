@@ -11,8 +11,8 @@ export default function About() {
       </div>
       <div className='w-full h-1/2 relative flexAllCenter justify-start flex-col'>
           <div className='absolute top-[calc(20%)] flexAllCenter w-full h-full z-10'>
-            <button className='bg-c_Purple border-y-2 border-c_Ebony rounded-lg p-2 mx-1 my-5 hover:text-c_Mischka hover:border-c_Mischka transition-colors shadow-lg shadow-c_Ebony'>Descarga Cv</button>
-            <button className='bg-c_Purple border-y-2 border-c_Ebony rounded-lg p-2 mx-1 my-5 hover:text-c_Mischka hover:border-c_Mischka transition-colors shadow-lg shadow-c_Ebony'>Ver proyectos</button>
+            <a className='bg-c_Purple border-y-2 border-c_Ebony rounded-lg p-2 mx-1 my-5 hover:text-c_Mischka hover:border-c_Mischka transition-colors shadow-lg shadow-c_Ebony' href='https://drive.google.com/uc?export=download&id=1dzH6EY6OrhQSurJtehBrruUKO1jjBK29'>Descarga Cv</a>
+            <a className='bg-c_Purple border-y-2 border-c_Ebony rounded-lg p-2 mx-1 my-5 hover:text-c_Mischka hover:border-c_Mischka transition-colors shadow-lg shadow-c_Ebony' href='#Portafolio'>Ver proyectos</a>
           </div>
           <div className='absolute top-0 w-full h-full p-5 flexAllCenter'>
             <img alt='Panda' className='max-h-[calc(100%)] w-auto rounded-2xl' src='/PelucheV1.png'/>

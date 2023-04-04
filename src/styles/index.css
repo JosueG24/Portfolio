@@ -67,6 +67,18 @@
         @apply bg-cover bg-center;
         background-image: url(/public/Others/backend.png);
     }
+    .bgConoc5{
+        @apply bg-cover bg-center;
+        background-image: url(/public/Others/DBConoc.png);
+    }
+    .bgConoc6{
+        @apply bg-cover bg-center;
+        background-image: url(/public/Others/POOConoc.jpg);
+    }
+    .bgConoc7{
+        @apply bg-cover bg-center;
+        background-image: url(/public/Others/Figma.png);
+    }
     .bgPort1{
         @apply bg-cover bg-center;
         background-image: url(/public/projectImages/Portfolio.jpeg);
