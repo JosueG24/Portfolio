@@ -32,7 +32,7 @@ export default function Part1() {
       {/* Portada */}
       <section className="bg_Portada w-full h-9/10">
         <div className='relative top-1/2 left-20 txtXl'>
-          <p className='txtSecondary txtXl'>Soy Josue Guzman</p>
+          <p className='txtSecondary txtXl'>Desarrollador web junior</p>
           <p className=''>Desarrollador Web</p>
           <button className=''>ImAButton</button>
         </div>

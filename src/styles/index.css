@@ -92,7 +92,7 @@
         font-family: "Hind Madurai", Helvetica, Arial, sans-serif; 
         overflow-x: hidden;
         background-image: url(/public/backgrounds/fondoV4-redy750-1300.png);
-        @apply w-[calc(97vw)] h-screen;
+        @apply w-screen h-screen;
         scroll-snap-type: y mandatory;
         scroll-behavior: smooth;
     }
@@ -122,5 +122,12 @@
     .glassBox{
         /* @apply rounded-lg p-6; */
         @apply bg-opacity-40 bg-c_Purple backdrop-filter backdrop-blur-lg border border-c_Purple border-opacity-50 rounded-lg shadow-lg shadow-c_Ebony
+    }
+    /* Drop shadow */
+    .Dshadow{
+        filter: drop-shadow(0px 0px 10px #04040E);
+    }
+    .Lshadow{
+        filter: drop-shadow(0px 0px 5px #DFDDE6);
     }
 }

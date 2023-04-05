@@ -6,7 +6,13 @@ export default function About() {
     <div className='w-2/10 h-full'>
       <div className='w-full h-1/2 p-3'>
         <div className='w-full h-full glassBox p-3'>
-          <p></p>
+          <p className='text-center txtLg w-full h-1/10'>Contacto</p>
+          <div className='flexAllCenter flex-wrap w-full h-auto p-6'>
+            <a className='h-2/3 w-[calc(35%)] mx-2 my-2 hover:Dshadow transition-all' href=''><img src='./icons/Github-white.png'/></a>
+            <a className='h-2/3 w-[calc(35%)] mx-2 my-2 hover:Dshadow transition-all' href=''><img src='./icons/linkedin.png'/></a>
+            <a className='h-2/3 w-[calc(35%)] mx-2 my-2 hover:Dshadow transition-all' href=''><img src='./icons/Gmail.png'/></a>
+            <a className='h-2/3 w-[calc(35%)] mx-2 my-2 hover:Dshadow transition-all' href=''><img src='./icons/Whatsapp.png'/></a>
+          </div>
         </div>
       </div>
       <div className='w-full h-1/2 relative flexAllCenter justify-start flex-col'>
@@ -33,8 +39,12 @@ export default function About() {
         <img alt='myPhoto' className='max-w-full max-h-full rounded-3xl shadow-md shadow-c_Ebony' src='/myPhoto.jpeg'/>
       </div>
       <div className='w-full h-1/3 p-3'>
-        <div className='w-[calc(80.60%)] h-full glassBox p-3'>
-          <p></p>
+        <div className='w-[calc(90.60%)] h-full glassBox p-3'>
+          <p className='text-center txtMd'>Lenguajes y entornos de programacion :</p>
+          <p>- Javascript, NodeJs, Typescript.</p>
+          <p>- C#, Asp .Net Core.</p>
+          <p>- Html, Css, Sass, Tailwind, Bootstrap.</p>
+          <p>- Sql server, MySql, PostgreSql</p>
         </div>
       </div>
     </div>

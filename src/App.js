@@ -10,10 +10,10 @@ function App() {
   return (
     <div className="App flex">
       {/* Barra lateral */}
-      <div className="w-[calc(3vw)] h-screen pt-[calc(15vh)] pb-[calc(5vh)] px-0 fixed bg-c_Ebony">
+      {/* <div className="w-[calc(3vw)] h-screen pt-[calc(15vh)] pb-[calc(5vh)] px-0 fixed bg-c_Ebony">
         <div className="w-full h-full leftBarr"></div>
       </div>
-      <div className="w-[calc(3vw)] h-screen bg-c_Dark"></div>
+      <div className="w-[calc(3vw)] h-screen bg-c_Dark"></div> */}
       {/* Cuerpo */}
       <div className="spContainer">
         <Part1/>
