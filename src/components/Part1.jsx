@@ -30,9 +30,10 @@ export default function Part1() {
       </header>
       <div className="w-full h-1/10"></div>
       {/* Portada */}
-      <section className="bg_Portada w-full h-9/10">
-        <div className='relative top-1/2 left-20 txtXl'>
-          <p className='txtSecondary txtXl'>Desarrollador web junior</p>
+      <section className="relative bg_Portada w-full h-9/10">
+        <div className='absolute bottom-12 left-12 txtXl glassBox w-1/3 p-3 text-c_Ebony'>
+          <p className='txtSecondary txtLg'>Desarrollador</p>
+          <p className='txtSecondary txtLg'>web junior</p>
           <p className=''>Desarrollador Web</p>
           <button className=''>ImAButton</button>
         </div>

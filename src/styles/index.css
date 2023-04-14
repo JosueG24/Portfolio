@@ -130,4 +130,8 @@
     .Lshadow{
         filter: drop-shadow(0px 0px 5px #DFDDE6);
     }
+    /* Clases de formulario */
+    .errorCamp{
+        @apply shadow-red-600 border-red-600 !important;
+    }
 }
