@@ -40,11 +40,11 @@ export default function About() {
       </div>
       <div className='w-full h-1/3 p-3'>
         <div className='w-[calc(90.60%)] h-full glassBox p-3'>
-          <p className='text-center txtMd'>Lenguajes y entornos de programacion :</p>
+          <p className='text-center txtMd pb-2'>Lenguajes y entornos de programacion :</p>
           <p>- Javascript, NodeJs, Typescript.</p>
           <p>- C#, Asp .Net Core.</p>
-          <p>- Html, Css, Sass, Tailwind, Bootstrap.</p>
-          <p>- Sql server, MySql, PostgreSql</p>
+          <p>- Html, Css, Sass, Tailwind.</p>
+          <p>- Sql server, MySql, PostgreSql, MongoDB</p>
         </div>
       </div>
     </div>

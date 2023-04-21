@@ -31,11 +31,10 @@ export default function Part1() {
       <div className="w-full h-1/10"></div>
       {/* Portada */}
       <section className="relative bg_Portada w-full h-9/10">
-        <div className='absolute bottom-12 left-12 txtXl glassBox w-1/3 p-3 text-c_Ebony'>
-          <p className='txtSecondary txtLg'>Desarrollador</p>
-          <p className='txtSecondary txtLg'>web junior</p>
-          <p className=''>Desarrollador Web</p>
-          <button className=''>ImAButton</button>
+        <div className='absolute bottom-8 left-8 txtXl glassDark w-2/5 p-3 text-c_Mischka'>
+          <p className='txtSecondary txtXLg pb-1 text-center'>{"-- Josué Guzman --"}</p>
+          <p className='txtSecondary txtLg text-center'>Desarrollador web</p>
+          <p className='txtSm text-center'>Autodidacta, junior, frontend, backend, nodeJs, .Net.</p>
         </div>
       </section>
     </div>

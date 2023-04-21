@@ -4,17 +4,17 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-export default function PortfolioCard({Collection, title, description, conoc, tecnos, link}) {
+export default function PortfolioCard({ImgPrinc, Collection, title, description, conoc, tecnos, link}) {
   return (
     <div className='relative group w-full h-full rounded-lg overflow-hidden shadow-md shadow-c_Mischka'>
 
     <div className="w-full h-full flex">
-      <div className="bgPort1 bg-cover bg-center w-4/10 h-full"></div>
+      <div className={ImgPrinc+" bg-cover bg-center w-4/10 h-full"}></div>
       <div className="w-6/10 h-full">
-        <p className="w-full h-2/10 txtXl txtSecondary flexAllCenter">{title}</p>
-        <p className="px-6 py-3 txtMd">{description}</p>
+        <p className="w-full h-1/10 txtLg txtSecondary flexAllCenter">{title}</p>
+        <p className="px-6 pb-3 pt-1 txtMd text-justify">{description}</p>
         <p className="px-6 txtMd pb-1 text-c_Purple">Conocimientos empleados :</p>
-        <p className="px-6 txtMd pb-3">{conoc}</p>
+        <p className="px-6 txtMd pb-3 text-justify">{conoc}</p>
       </div>
     </div>
     <div className="absolute top-0 w-full h-full flex flex-wrap bg-c_Ebony opacity-0 transition-all group-hover:opacity-100">
@@ -41,7 +41,7 @@ export default function PortfolioCard({Collection, title, description, conoc, te
         {/* Sector del swiper */}
       </div>
       <div className="w-3/10 h-8/10">
-        <p className="px-6 txtLg pb-1 text-c_Purple flexAllCenter text-center w-full h-2/10">Tecnologías utilizadas :</p>
+        <p className="px-8 txtLg pb-1 text-c_Purple flexAllCenter text-center w-full h-2/10">Tecnologías utilizadas :</p>
         <div className="flexAllCenter justify-start flex-wrap w-full min-h-2/10 px-3 mt-3">
               {tecnos.map((item, index)=>{
                   return(

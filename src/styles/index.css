@@ -43,6 +43,7 @@
         line-height: 1em;
     }
     /* Backgrouns */
+    /* Background Pt1 */
     .bg_Portada{
         @apply bg-cover bg-center;
         background-image: url(/public/backgrounds/elementsV7-redy-600-1300.png);
@@ -51,6 +52,15 @@
         @apply bg-cover bg-center;
         background-image: url(/public/backgrounds/bgMoonV5-redy-600-1300.png);
     }
+    .bg_Stars{
+        @apply bg-cover bg-center;
+        background-image: url(/public/backgrounds/fondoLg-850-1700.png);
+    }
+    .bg_StarsMd{
+        @apply bg-cover bg-center;
+        background-image: url(/public/backgrounds/fondoMd-550-800.png);
+    }
+    /* Backgrounds Sections */
     .bgConoc1{
         @apply bg-cover bg-center;
         background-image: url(/public/Others/tailwind-nextjs.png);
@@ -83,6 +93,10 @@
         @apply bg-cover bg-center;
         background-image: url(/public/projectImages/Portfolio.jpeg);
     }
+    .bgPort2{
+        @apply bg-cover bg-center;
+        background-image: url(/public/projectImages/SuperGames.jpeg);
+    }
     /* Other */
     .App{
 
@@ -91,7 +105,6 @@
         color: #DFDDE6;
         font-family: "Hind Madurai", Helvetica, Arial, sans-serif; 
         overflow-x: hidden;
-        background-image: url(/public/backgrounds/fondoV4-redy750-1300.png);
         @apply w-screen h-screen;
         scroll-snap-type: y mandatory;
         scroll-behavior: smooth;
@@ -122,6 +135,9 @@
     .glassBox{
         /* @apply rounded-lg p-6; */
         @apply bg-opacity-40 bg-c_Purple backdrop-filter backdrop-blur-lg border border-c_Purple border-opacity-50 rounded-lg shadow-lg shadow-c_Ebony
+    }
+    .glassDark{
+        @apply bg-opacity-60 bg-c_Ebony backdrop-filter backdrop-blur-lg border border-c_Ebony border-opacity-50 rounded-lg shadow-lg shadow-c_Ebony
     }
     /* Drop shadow */
     .Dshadow{
