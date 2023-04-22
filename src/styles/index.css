@@ -42,24 +42,42 @@
         font-size:  calc(1.5em + 1.8vw);
         line-height: 1em;
     }
-    /* Backgrouns */
-    /* Background Pt1 */
-    .bg_Portada{
-        @apply bg-cover bg-center;
-        background-image: url(/public/backgrounds/elementsV7-redy-600-1300.png);
+
+
+    /* Estilos PT1 */
+.bg_Portada{
+    @apply bg-cover bg-center;
+    background-image: url(/public/backgrounds/elementsV7-redy-600-1300.png);    }
+.bg_Moon{
+    @apply bg-cover bg-center;
+    background-image: url(/public/backgrounds/bgMoonV5-redy-600-1300.png);    }
+.bg_Stars{
+    @apply bg-cover bg-center;
+    background-image: url(/public/backgrounds/fondoLg-850-1700.png);    }
+.bg_StarsMd{
+    @apply bg-cover bg-center;
+    background-image: url(/public/backgrounds/fondoMd-550-800.png);    }
+.bg_StarsLg{
+    @apply bg-cover bg-center;
+    background-image: url(/public/backgrounds/fondoLg-850-1700.png);   }
+    /* Estilos para BurgueBar */
+.burguerAct{
+    @apply w-screen h-9/10 flexAllCenter flex-col overflow-hidden top-[calc(10%)] fixed right-0 transition-all bg-c_Ebony justify-around
+    lg:static lg:h-full lg:w-1/2 lg:flex-row lg:justify-between;
+}
+
+.burguerDes{
+    @apply w-0 h-0       flexAllCenter flex-col overflow-hidden fixed top-[calc(10%)] right-0 transition-all
+    lg:static lg:h-full lg:w-1/2 lg:flex-row lg:justify-between;
+}
+    /* Clases de los links del navbar */
+    .inactiveA{
+        @apply p-2 rounded-lg transition-all hover:bg-c_Mischka hover:text-c_Ebony hover:border-c_Ebony;
     }
-    .bg_Moon{
-        @apply bg-cover bg-center;
-        background-image: url(/public/backgrounds/bgMoonV5-redy-600-1300.png);
+    .activeA{
+        @apply border-y-2 border-c_Mischka p-2 rounded-lg transition-all hover:bg-c_Mischka hover:text-c_Ebony hover:border-c_Ebony;
     }
-    .bg_Stars{
-        @apply bg-cover bg-center;
-        background-image: url(/public/backgrounds/fondoLg-850-1700.png);
-    }
-    .bg_StarsMd{
-        @apply bg-cover bg-center;
-        background-image: url(/public/backgrounds/fondoMd-550-800.png);
-    }
+
     /* Backgrounds Sections */
     .bgConoc1{
         @apply bg-cover bg-center;
@@ -124,13 +142,7 @@
     .leftBarr{
         border-right: 1px solid #DFDDE6;
     }
-    /* Clases de los links del navbar */
-    .inactiveA{
-        @apply p-2 rounded-lg transition-all hover:bg-c_Mischka hover:text-c_Ebony hover:border-c_Ebony;
-    }
-    .activeA{
-        @apply border-y-2 border-c_Mischka p-2 rounded-lg transition-all hover:bg-c_Mischka hover:text-c_Ebony hover:border-c_Ebony;
-    }
+
     /* Clases para cajas con glassmorfismo */
     .glassBox{
         /* @apply rounded-lg p-6; */

@@ -15,8 +15,9 @@ function App() {
       </div>
       <div className="w-[calc(3vw)] h-screen bg-c_Dark"></div> */}
       {/* Cuerpo */}
-      <div className="spContainer lg:bg_Stars
-      md:bg_StarsMd">
+      <div className="spContainer bg_Stars
+      md:bg_StarsMd
+      lg:bg_StarsLg">
         <Part1/>
         <About/>
         {/* <Tecnos/> */}
