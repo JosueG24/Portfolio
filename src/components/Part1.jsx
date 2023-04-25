@@ -39,7 +39,8 @@ export default function Part1() {
 
       <div className="w-full h-1/10"></div>
       {/* Portada */}
-      <section className="relative bg_Portada w-full h-9/10">
+      <section className="relative w-full h-9/10 bg_Portada
+      md:bg_PortadaMd lg:bg_PortadaLg">
         <div className='absolute bottom-8 left-8 txtXl2 glassDark w-4/6 p-3 text-c_Mischka
         lg:w-2/5'>
           <p className='txtSecondary txtXL pb-1 text-center'>{"-- Josué Guzman --"}</p>

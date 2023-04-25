@@ -47,19 +47,27 @@
     /* Estilos PT1 */
 .bg_Portada{
     @apply bg-cover bg-center;
-    background-image: url(/public/backgrounds/elementsV7-redy-600-1300.png);    }
+    background-image: url(/public/backgrounds/elementsSm-550-500.png);    }
+.bg_PortadaMd{
+    @apply bg-cover bg-center;
+    background-image: url(/public/backgrounds/elementsMd-550-800.png);    }
+.bg_PortadaLg{
+    @apply bg-cover bg-center;
+    background-image: url(/public/backgrounds/elementsLg-600-1300.png);    }
 .bg_Moon{
     @apply bg-cover bg-center;
     background-image: url(/public/backgrounds/bgMoonV5-redy-600-1300.png);    }
+
 .bg_Stars{
     @apply bg-cover bg-center;
-    background-image: url(/public/backgrounds/fondoLg-850-1700.png);    }
+    background-image: url(/public/backgrounds/fondoSm-550-500.png);    }
 .bg_StarsMd{
     @apply bg-cover bg-center;
     background-image: url(/public/backgrounds/fondoMd-550-800.png);    }
 .bg_StarsLg{
     @apply bg-cover bg-center;
     background-image: url(/public/backgrounds/fondoLg-850-1700.png);   }
+
     /* Estilos para BurgueBar */
 .burguerAct{
     @apply w-screen h-9/10 flexAllCenter flex-col overflow-hidden top-[calc(10%)] fixed right-0 transition-all bg-c_Ebony justify-around
