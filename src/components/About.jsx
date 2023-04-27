@@ -40,10 +40,13 @@ export default function About() {
       </div>
     </div>
 
-    <div className='flexAllCenter flex-col h-full w-8/10'>
+    <div className='flexAllCenter flex-col h-full w-8/10
+    lg:flex-row '>
 
-      <div className='w-full h-2/3 flexAllCenter'>
-        <div className='w-full h-full p-1 mx-1 glassBox txtMd overflow-y-auto'>
+      <div className='w-full h-2/3 flexAllCenter
+      lg:w-3/4 lg:h-auto lg:p-3'>
+        <div className='w-full h-full p-1 mx-1 glassBox txtMd overflow-y-auto
+        lg:p-3'>
           <p className='py-2 px-3 txtXl txtSecondary'>Sobre mi :</p>
           <p className='pb-2 px-3 text-justify'>Saludos, mi nombre es Josué Guzman y soy un desarrollador web aprendiz con experiencia en frontend y backend. Luego de graduarme como bachiller en computación, he estado estudiando y trabajando en proyectos web fullstack durante los últimos 18 meses.</p>
           <p className='pb-2 px-3 text-justify'>Aunque no cuento con experiencia laboral previa, soy un habil aprendiz y me considero una persona creativa, resolutiva y capaz de resolver problemas lógicos de manera eficiente. Además, soy una persona planificadora, ordenada, observadora y que constantemente trata de aprender cosas nuevas.</p>
@@ -52,11 +55,14 @@ export default function About() {
         </div>
       </div>
 
-      <div className='w-full h-1/3 flex'>
-        <div className=' w-1/3 h-full p-1 flexAllCenter'>
+      <div className='w-full h-1/3 flex
+      lg:w-1/4 lg:h-full lg:flex-col'>
+        <div className=' w-1/3 h-full p-1 flexAllCenter
+        lg:w-full lg:p-3 lg:h-1/2'>
           <img alt='myPhoto' className='max-w-full max-h-full rounded-3xl shadow-md shadow-c_Ebony' src='/myPhoto.jpeg'/>
         </div>
-        <div className='w-2/3 h-full p-3'>
+        <div className='w-2/3 h-full p-3
+        lg:w-full -lg:h-1/2'>
           <div className='w-[calc(90.60%)] h-full txtMd glassBox p-3'>
             <p className='text-center pb-2'>Lenguajes y entornos de programacion :</p>
             <p>- Javascript, NodeJs, Typescript.</p>
