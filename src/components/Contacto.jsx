@@ -50,7 +50,8 @@ export default function Contacto() {
   }
 
   return (
-    <section className=' txtMd bg-c_Mischka text-c_Ebony w-full h-screen'>
+    <section className=' txtMd bg-c_Mischka text-c_Ebony w-full h-[calc(95vh)]
+    md:h-full'>
       <p className='w-full h-1/10 flexAllCenter txtXl txtSecondary'>Contacto</p>
       <div className="w-full h-7/10 text-c_Ebony">
 

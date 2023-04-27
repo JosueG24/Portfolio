@@ -3,7 +3,8 @@ import React from 'react'
 export default function About() {
 
   return(
-    <section id='About' className='text-c_Ebony scrollEfect bg_Moon w-screen h-[calc(90vh)] flex'>
+    <section id='About' className='text-c_Ebony scrollEfect bg_Moon w-screen h-[calc(90vh-30px)] flex
+    md:h-[calc(90vh)]'>
     <div className='w-2/10 h-full'>
       <div className='w-full h-1/2 p-1'>
         <div className='w-full h-full glassBox p-1'>

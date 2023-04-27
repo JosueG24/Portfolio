@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function Services() {
   return (
-    <section id='Services' className='scrollEfect txtMd p-5 bg-c_Mischka text-c_Ebony w-full h-[calc(90vh)] border-b-2 border-c_Ebony'>
+    <section id='Services' className='scrollEfect txtMd p-5 bg-c_Mischka text-c_Ebony w-full h-[calc(90vh-30px)] border-b-2 border-c_Ebony
+    md:h-[calc(90vh)]'>
       <p className='w-full h-1/10 flexAllCenter txtXl txtSecondary'>Servicios</p>
       <div className='flexAllCenter flex-wrap w-full h-9/10'>
 

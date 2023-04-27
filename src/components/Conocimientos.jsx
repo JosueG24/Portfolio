@@ -3,7 +3,8 @@ import React from 'react'
 export default function Conocimientos() {
   return (
     <>
-    <section id='Conocimientos' className='scrollEfect txtMd p-5 bg-c_Ebony text-c_Mischka w-full h-[calc(90vh)]'>
+    <section id='Conocimientos' className='scrollEfect txtMd p-5 bg-c_Ebony text-c_Mischka w-full h-[calc(90vh-30px)]
+    md:h-[calc(90vh)]'>
       <p className='w-full h-1/10 flexAllCenter txtXl txtSecondary'>Conocimientos</p>
       <div className='flexAllCenter flex-wrap w-full h-9/10'>
 
