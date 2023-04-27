@@ -24,8 +24,8 @@ export default function About() {
         </div>
       </div>
       <div className='w-full h-1/2 relative flexAllCenter justify-start flex-col'>
-          <div className='absolute top-[calc(20%)] flexAllCenter w-full h-full z-10 flex-col
-          '>
+          <div className=' flexAllCenter w-full h-full z-10 flex-col
+          md:absolute md:top-[calc(20%)]'>
             <a href='https://drive.google.com/uc?export=download&id=1dzH6EY6OrhQSurJtehBrruUKO1jjBK29' 
             className='bg-c_Purple border-y-2 border-c_Ebony rounded-md p-1 mx-1 my-2 txtMd hover:text-c_Mischka hover:border-c_Mischka transition-colors shadow-lg shadow-c_Ebony w-9/10 text-center
             md:rounded-lg md:p-2 md:txtLg lg:rounded-lg lg:my-1 lg:txtLg'>Descarga Cv</a>
@@ -45,7 +45,7 @@ export default function About() {
 
       <div className='w-full h-2/3 flexAllCenter
       lg:w-3/4 lg:h-auto lg:p-3'>
-        <div className='w-full h-full p-1 mx-1 glassBox txtMd overflow-y-auto
+        <div className='w-auto max-w-full h-full p-1 mx-1 glassBox txtMd overflow-y-auto
         lg:p-3'>
           <p className='py-2 px-3 txtXl txtSecondary'>Sobre mi :</p>
           <p className='pb-2 px-3 text-justify'>Saludos, mi nombre es Josué Guzman y soy un desarrollador web aprendiz con experiencia en frontend y backend. Luego de graduarme como bachiller en computación, he estado estudiando y trabajando en proyectos web fullstack durante los últimos 18 meses.</p>
