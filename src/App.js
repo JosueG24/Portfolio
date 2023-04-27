@@ -8,7 +8,8 @@ import Contacto from "./components/Contacto";
 
 function App() {
   return (
-    <div className="App flex">
+    <div className="App flex pb-[calc(30px)] bg-c_Ebony
+    md:pt-0">
       {/* Barra lateral */}
       {/* <div className="w-[calc(3vw)] h-screen pt-[calc(15vh)] pb-[calc(5vh)] px-0 fixed bg-c_Ebony">
         <div className="w-full h-full leftBarr"></div>
