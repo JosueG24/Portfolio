@@ -55,6 +55,53 @@ export default function Contacto() {
       <p className='w-full h-1/10 flexAllCenter txtXl txtSecondary'>Contacto</p>
       <div className="w-full h-7/10 text-c_Ebony">
 
+        <form id="contactForm" className='flexAllCenter w-full h-full flex-col border-b-2 border-c_Ebony txtXl
+        md:txtLg' onSubmit={handleSubmit}>
+          <div className="flexAllCenter flex-col w-full h-2/10">
+            <div className='w-5/6 h-full rounded-lg p-1 flexAllCenter
+            md:w-2/3'>
+              <input id="iName" type="text" name="name" placeholder="Ingrese su Nombre" className="placeholder:text-c_Mischka h-full w-full shadow-md shadow-c_Ebony rounded-lg bg-c_Purple border-b-2 border-c_Ebony focus:outline-none text-center
+              md:w-8/10"/>
+            </div>
+            <div className='w-5/6 h-full rounded-lg p-1 flexAllCenter
+            md:w-2/3'>
+              <input id="iEmail" type="text" name="email" placeholder="Ingrese su Correo" className="placeholder:text-c_Mischka h-full w-full shadow-md shadow-c_Ebony rounded-lg bg-c_Purple border-b-2 border-c_Ebony focus:outline-none text-center
+              md:w-8/10"/>
+            </div>
+          </div>
+          <div className=' w-5/6 h-6/10 rounded-lg p-2
+          md:w-2/3'>
+            <textarea id="iText" type="text" name="message" placeholder="Escriba su mensage" className="placeholder:text-c_Mischka border-y-2 border-c_Ebony rounded-lg bg-c_Purple w-full h-full shadow-lg shadow-c_Ebony focus:outline-none p-2"></textarea>
+          </div>
+          <div className="flexAllCenter w-1/2 h-2/10
+          md:w-1/3"><button className="border-y-2 border-c_Ebony bg-c_Purple w-full h-1/2 shadow-md shadow-c_Ebony rounded-lg hover:text-c_Mischka hover:border-c_Purple transition-colors
+          md:w-1/2">Enviar</button></div>
+        </form>
+
+    </div>
+    <Footer/>
+    {modal !== false &&
+      <div className="bg-c_Opaque fixed w-screen h-screen flexAllCenter top-0 left-0 z-40">
+        <div className="bg-c_Ebony w-1/3 h-1/3 border-y-2 border-c_Mischka rounded-lg text-c_Mischka flexAllCenter flex-col p-3">
+          <p className="txtSecondary txtLg pb-2">{modal.title}</p>
+          {modal.description.map((item, index)=>{
+            return(
+              <p className="pb-2 text-center" key={index}>- {item}</p>
+            )
+          })}
+          <button className="px-3 py-2 rounded-md border-y-2 border-c_Purple hover:bg-c_Purple transition-colors" onClick={()=>setModal(false)}>Cerrar</button>
+        </div>
+      </div>
+    }
+</section>
+  )
+
+  return (
+    <section className=' txtMd bg-c_Mischka text-c_Ebony w-full h-[calc(95vh)]
+    md:h-full'>
+      <p className='w-full h-1/10 flexAllCenter txtXl txtSecondary'>Contacto</p>
+      <div className="w-full h-7/10 text-c_Ebony">
+
         <form id="contactForm" className='flexAllCenter w-full h-full flex-col border-b-2 border-c_Ebony txtLg' onSubmit={handleSubmit}>
           <div className="flexAllCenter flex-col w-full h-2/10">
             <div className='w-2/3 h-full rounded-lg p-1 flexAllCenter'>
