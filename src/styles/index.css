@@ -115,6 +115,22 @@
         @apply bg-cover bg-center;
         background-image: url(/public/Others/Figma.png);
     }
+    .bgServ1{
+        @apply bg-cover bg-center;
+        background-image: url(/public/Others/DesarrolloydisenoW.jpg);
+    }
+    .bgServ2{
+        @apply bg-cover bg-center;
+        background-image: url(/public/Others/mantenimientoW.jpg);
+    }
+    .bgServ3{
+        @apply bg-cover bg-center;
+        background-image: url(/public/Others/mantenimientoW.jpg);
+    }
+    .bgServ4{
+        @apply bg-cover bg-center;
+        background-image: url(/public/Others/asesoria.png);
+    }
     .bgPort1{
         @apply bg-cover bg-center;
         background-image: url(/public/projectImages/Portfolio.jpeg);
