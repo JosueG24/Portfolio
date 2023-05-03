@@ -34,7 +34,7 @@ export default function Portfolio() {
           />
         </div>
         {/* Third icon */}
-        <div className="scrollEfectIII w-[calc(75%)] h-[calc(65vh)] my-[calc(5vh)]">
+        {/* <div className="scrollEfectIII w-[calc(75%)] h-[calc(65vh)] my-[calc(5vh)]">
           <PortfolioCard  className="scrollEfectIII"
             ImgPrinc="bgPort2"
             Collection={["/Project2/img1.jpeg","/Project2/img2.jpeg","/Project2/img3.jpeg","/Project2/img4.jpeg","/Project2/img5.jpeg"]} 
@@ -44,7 +44,7 @@ export default function Portfolio() {
             tecnos={["React","NextJs","Vercel","emailJS","Tsparticles","SwiperJs"]}
             link={["https://www.jguzman.tk/","https://github.com/JosueElutiche24/PortafolioProfesional"]}
           />
-        </div>
+        </div> */}
         {/* Fourth Icon */}
         <div className="scrollEfectIII w-[calc(75%)] h-[calc(65vh)] my-[calc(5vh)]">
           <PortfolioCard className="scrollEfectIII"

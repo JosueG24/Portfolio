@@ -1,10 +1,23 @@
-import React from 'react'
+import { useState } from "react";
 
 export default function About() {
+const [copyI, setCopyI] = useState(false)
+function copyToClipboard(txt){
+  navigator.clipboard.writeText(txt)
+    .then(() => {
+        setCopyI(true)
+      setTimeout(() => {
+        setCopyI(false)
+      }, 1500);
+    })
+    
+}
 
   return(
     <section id='About' className='text-c_Ebony scrollEfect bg_Moon w-screen h-[calc(90vh-30px)] flex
     md:h-[calc(90vh)]'>
+
+
     <div className='w-2/10 h-full'>
       <div className='w-full h-1/2 p-1'>
         <div className='w-full h-full glassBox p-1'>
@@ -12,14 +25,16 @@ export default function About() {
           md:block lg:block'>Contacto</p>
            <div className='flexAllCenter flex-wrap w-full h-9/10
            md:content-center lg:content-center'>            
+
+           <div className={copyI===false?'hcopy':"copy"}>Texto copiado</div>
             <a className='m-1 hover:Dshadow transition-all h-1/5
-            md:h-1/4 md:m-1 lg:h-1/4 lg:m-2' href='/#'><img className='w-full h-full' src='./icons/Github-white.png' alt=''/></a>  
+            md:h-1/4 md:m-1 lg:h-1/4 lg:m-2' href='https://github.com/JosueG24' target="_blank" rel="noreferrer noopener" title="https://github.com/JosueG24"><img className='w-full h-full' src='./icons/Github-white.png' alt=''/></a>  
             <a className='m-1 hover:Dshadow transition-all h-1/5
-            md:h-1/4 md:m-1 lg:h-1/4 lg:m-2' href='/#'><img className='w-full h-full' src='./icons/linkedin.png'  alt=''/></a>
+            md:h-1/4 md:m-1 lg:h-1/4 lg:m-2' href='https://www.linkedin.com/in/josue-guzman-754063256' target="_blank" rel="noreferrer noopener" title="https://www.linkedin.com/in/josue-guzman-754063256"><img className='w-full h-full' src='./icons/linkedin.png'  alt=''/></a>
+            <div className='m-1 hover:Dshadow transition-all h-1/5
+            md:h-1/4 md:m-1 lg:h-1/4 lg:m-2' title="JosueG.guzman24@gmail.com" onClick={() => copyToClipboard('JosueG.guzman24@gmail.com')}><img className='w-full h-full' src='./icons/Gmail.png' alt=''/></div>
             <a className='m-1 hover:Dshadow transition-all h-1/5
-            md:h-1/4 md:m-1 lg:h-1/4 lg:m-2' href='/#'><img className='w-full h-full' src='./icons/Gmail.png' alt=''/></a>
-            <a className='m-1 hover:Dshadow transition-all h-1/5
-            md:h-1/4 md:m-1 lg:h-1/4 lg:m-2' href='/#'><img className='w-full h-full' src='./icons/Whatsapp.png' alt=''/></a>
+            md:h-1/4 md:m-1 lg:h-1/4 lg:m-2' href='https://wa.me/50242732103?text=%C2%A1Hola%21' target="_blank" rel="noreferrer noopener" title="https://wa.me/50242732103?text=%C2%A1Hola%21"><img className='w-full h-full' src='./icons/Whatsapp.png' alt=''/></a>
 
           </div>
         </div>
